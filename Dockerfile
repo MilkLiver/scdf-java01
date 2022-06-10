@@ -1,5 +1,6 @@
-FROM docker.io/centos:7
+#FROM docker.io/centos:7
 #FROM 192.168.50.11/seyana/centos:7
+FROM registry.access.redhat.com/ubi8/ubi
 MAINTAINER milkliver
 #ARG uid=0
 #ARG gid=0
