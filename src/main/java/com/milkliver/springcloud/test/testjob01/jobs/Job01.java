@@ -15,7 +15,7 @@ public class Job01 {
 	@PostConstruct
 	public void run() {
 
-		log.info("2022,06,30 13:47");
+		log.info("2022,07,21 10:32");
 		log.info("this is java job01");
 
 	}
