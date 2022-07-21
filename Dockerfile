@@ -19,8 +19,6 @@ RUN java -version
 RUN mkdir /testfiles
 WORKDIR /testfiles
 
-#ADD ./scdf-task01.jar /testfiles/
-#ADD ./externalProgramFiles/* /testfiles/
 ADD ./*.jar /testfiles/
 RUN chmod 777 -Rf /testfiles
 
